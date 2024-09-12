@@ -93,3 +93,31 @@
     justify-content: center;
     margin-top: 20px;
 }
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px;
+}
+
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 60%;
+    align-content:space-between;
+
+}
+
+.read-more-button {
+    width: 120px;
+    height: 30px;
+    background-color: #77B122;
+    color: white;
+    text-size-adjust: 50px;
+}
+.flex-leaf {
+    width: 100vw;
+
+}
+
