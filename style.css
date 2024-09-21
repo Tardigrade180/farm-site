@@ -9,9 +9,9 @@
 .nav-edit {
     display: flex;
     flex-direction: row;
-    width: 1349px;
+    width: 100%;
     align-items: center;
-    gap: 25rem;  
+    gap: 50px;  
     height: 80px;
     justify-content: space-around;
     font-family: "Space Grotesk", system-ui;
@@ -32,6 +32,8 @@
     flex-direction: row;
     gap: 10px;
     text-decoration: none;
+    width: 60%;
+
 }
 
 .remove-text-decoration {
@@ -207,4 +209,8 @@
 .h4aboutus-edit{
     font-size: 40px;
     font-family:'Times New Roman', Times, serif;
+}
+
+.edit-25{
+    padding-left: 30px;
 }
